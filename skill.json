@@ -1,0 +1,23 @@
+{
+  "name": "genpark-agentic-commerce-freight-density-nmfc-class-reclassification-skill",
+  "version": "1.0.0",
+  "description": "LTL freight shipment density (PCF), stowability, handling & liability evaluation for NMFC commodity class dispute defense.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_nmfc_density_classification",
+      "description": "LTL freight shipment density (PCF), stowability, handling & liability evaluation for NMFC commodity class dispute defense.",
+      "sample_input": {
+        "weight_lbs": 680.0,
+        "length_inches": 48.0,
+        "width_inches": 40.0,
+        "height_inches": 52.0,
+        "billed_class": 70
+      }
+    }
+  ]
+}
